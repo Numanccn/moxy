@@ -1,0 +1,74 @@
+/* Universal */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: slategray;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+/* header section*/
+
+header {
+    height: 15rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    font-family: "Exo 2", sans-serif;
+    font-style: bolder;
+    font-size:2rem;
+}
+
+.title {
+    font-family: "Monoton", sans-serif;
+    font-weight: 100;
+    font-size: 5rem;
+    word-spacing: 5px;
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+}
+
+
+/* main section */
+main {
+
+    flex-grow: 1;
+}
+
+/* Footer */
+
+footer {
+    height: 5rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#author {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Tilt Warp", sans-serif;
+    
+}
+
+.social {
+    height: 50px;
+}
