@@ -1,10 +1,10 @@
 /* Universal */
-
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: slategray;
+    background-color: #F1F1F1; /* Light Gray */
+    color: #333333; /* Dark Gray text for better contrast */
 }
 
 a:hover {
@@ -14,11 +14,11 @@ a:hover {
 a:active {
     color: blue;
 }
-/* header section*/
 
+/* Header Section */
 header {
-    height: 15rem;
-    background-color: antiquewhite;
+    height: 10rem;
+    background-color: antiquewhite; /* Original header color */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ header {
 .item {
     font-family: "Exo 2", sans-serif;
     font-style: bolder;
-    font-size:2rem;
+    font-size: 2rem;
 }
 
 .title {
@@ -43,18 +43,17 @@ ul {
     gap: 100px;
 }
 
-
-/* main section */
+/* Main Section */
 main {
-
     flex-grow: 1;
+    background-color: #FFFFFF; /* White background for main section */
+    color: #333333; /* Dark Gray text for contrast */
 }
 
 /* Footer */
-
 footer {
     height: 5rem;
-    background-color: whitesmoke;
+    background-color: #2C3E50; /* Dark Slate Gray */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,9 +65,12 @@ footer {
     font-weight: 400;
     font-style: normal;
     font-family: "Tilt Warp", sans-serif;
-    
+    color: #FFFFFF; /* White text */
 }
 
+/* Logo with Box Shadow */
 .social {
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.8); /* Light white glow effect */
     height: 50px;
+    border-radius: 50%;
 }
