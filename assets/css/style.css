@@ -47,7 +47,6 @@ ul {
 /* Main Section */
 main {
     display: flex;
-    flex-direction: column;
     flex-grow: 1;
     background-color: #252A2A;
     color: #F5F5F5; /* Light text color for contrast */
@@ -57,7 +56,6 @@ article {
     max-width: 70%; /* Adjusted for better layout balance */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 20px;
     text-align: justify;
     font-family: 'Verdana', Geneva, sans-serif;
@@ -65,16 +63,21 @@ article {
 }
 
 .intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px; /* Reduced gap for more compact design */
-    padding: 20px; /* Unified padding */
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+   max-width: 80%;
+   margin: 0 auto;
 }
 
 #mainlogo {
-    max-height: 90%;
-    min-height: 30%;
+    box-sizing: content-box;
+    margin-top: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+
 }
 
 article p {
